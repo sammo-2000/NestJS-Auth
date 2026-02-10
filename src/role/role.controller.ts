@@ -102,7 +102,6 @@ export class RoleController {
    * - ROLE_MANAGE
    * - ROLE_READ
    */
-  @Get(':id')
   @ApiOperation({
     summary: 'Get a role by ID',
     description: 'Requires ROLE_MANAGE or ROLE_READ permission',
